@@ -11,7 +11,7 @@ const createDirTree = (dir,skip) => {
             const childPath = path.join(curDir,value.name); 
             const depths = childPath.replace(rootDir,'').split(path.sep).filter(Boolean).length ;
             const isDirectory = value.isDirectory();
-            const prefix = `${'| '.repeat(depths -1)}${ isDirectory ? '+' : '`' }-- `; 
+            const prefix = `${'| '.repeat(depths -1)}${ isDirectory ? '+' : '`' }—— `; 
             console.log(`${prefix}${value.name}`);
             if(isDirectory){
             recur(path.join(curDir,value.name));

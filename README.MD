@@ -3,9 +3,11 @@
 
 
 **输出例子**
+```
 +—— root
 `-- .gitignore
-+-- components  
+`-- README.md
++-- components
 | +-- Footer
 | | `-- index.tsx
 | +-- Header
@@ -23,23 +25,21 @@
 | `-- 404.html
 `-- package.json
 +-- pages
+| +-- P
+| | `-- [id].tsx
 | `-- about.tsx
 | +-- api
 | | `-- randomQuote.ts
 | `-- index.tsx
-| +-- P
-| | `-- [id].tsx
 | `-- post.tsx
 +-- public
-`-- README.md
 +-- styles
 | `-- index.less
 | `-- reset.less
 `-- test.js
 `-- tsconfig.json
 `-- yarn.lock
-
-![image-20200605234123420](C:\Users\qiangshengchen\AppData\Roaming\Typora\typora-user-images\image-20200605234123420.png)
+```
 
 
 
